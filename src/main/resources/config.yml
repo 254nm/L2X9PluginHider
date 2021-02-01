@@ -1,0 +1,16 @@
+#Return a fake plugins list when a player tries to use .pl || .plugins
+FakePlugins:
+  SendFakePluginsList: true
+  #List of fake plugins to send back to the client when they try .pl
+  FakePluginsList:
+    - "My"
+    - "Plugins"
+    - "Arent"
+    - "You're"
+    - "Business"
+#Fake the /plugins command for players who dont have permission
+FakeCommand: true
+#Disable /?
+Disable?: true
+#Disable the /pluginName:command syntax
+DisableColon: true

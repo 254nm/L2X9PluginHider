@@ -1,0 +1,8 @@
+name: L2X9PluginHider
+version: ${project.version}
+main: org.l2x9.l2x9pluginhider.L2X9PluginHider
+authors: [ 254n_m ]
+description: Hides the plugins on l2x9
+website: http://www.l2x9.org
+depend:
+  - ProtocolLib
